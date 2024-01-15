@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "SFU", sans-serif;
+  src: url("../font/._SFUMeliorRegular.TTF");
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Asap", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.6rem;
+}
+
+.container {
+  position: relative;
+}
+
+.banner {
+  width: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  top: 108px;
+  left: 178px;
+  width: 580px;
+  padding: 30px 30px 50px;
+  border-radius: 5px;
+  background: #fff;
+  opacity: 0.8;
+}
+
+.heading {
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #dc5e56;
+}
+
+.desc {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.link {
+  margin-top: 30px;
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.link-address {
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.price {
+  position: absolute;
+  bottom: 106px;
+  right: 713px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 50px;
+  border-radius: 5px;
+  font-family: "SFU", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 600;
+  background: rgb(221 94 86);
+  color: #fff;
+}

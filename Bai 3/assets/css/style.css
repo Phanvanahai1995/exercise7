@@ -1,0 +1,107 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.6%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Asap", sans-serif;
+}
+
+.container {
+  width: 1400px;
+  padding: 50px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading {
+  font-size: 2.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.menu-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 170px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: 500;
+  background-color: #e5e5e5;
+  transition: background-color 0.4s ease;
+}
+
+.menu-link:hover {
+  color: #fff;
+  background-color: #af7b38;
+}
+
+.menu-link h3 {
+  font-size: 1.8rem;
+}
+
+.menu-link span {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.body {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.item-link {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 8/5;
+  object-fit: cover;
+  border-radius: 5px;
+  filter: brightness(0.8);
+}
+
+.content {
+  position: absolute;
+  color: #fff;
+  top: -243px;
+  padding-left: 30px;
+}
+
+.content > span {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.content > div {
+  margin-top: 200px;
+}
+
+.content strong {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
