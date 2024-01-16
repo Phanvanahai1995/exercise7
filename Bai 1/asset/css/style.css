@@ -1,6 +1,6 @@
 @font-face {
   font-family: "SFU", sans-serif;
-  src: url("../font/._SFUMeliorRegular.TTF");
+  src: url("../font/SFUTradeGothic-BoldCondensedTwenty.woff2");
 }
 
 *,
@@ -69,13 +69,12 @@ body {
 
 .price {
   position: absolute;
-  bottom: 106px;
+  bottom: 93px;
   right: 713px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 140px;
-  height: 50px;
+  padding: 20px;
   border-radius: 5px;
   font-family: "SFU", sans-serif;
   text-transform: uppercase;
