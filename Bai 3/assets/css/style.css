@@ -26,9 +26,21 @@ body {
 }
 
 .heading {
+  position: relative;
   font-size: 2.6rem;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+.heading::before {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 55%;
+  background-color: #ccc;
 }
 
 .menu-list {
