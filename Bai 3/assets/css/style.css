@@ -86,21 +86,31 @@ body {
 }
 
 .item-link {
+  width: 100%;
+  aspect-ratio: 8/5;
   position: relative;
+  display: block;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .image {
   width: 100%;
-  aspect-ratio: 8/5;
+  height: 100%;
   object-fit: cover;
-  border-radius: 5px;
   filter: brightness(0.8);
+  transition: 0.1s ease-in-out;
+}
+
+.item-link:hover .image {
+  filter: brightness(1);
+  scale: 1.2;
 }
 
 .content {
   position: absolute;
   color: #fff;
-  top: -243px;
+  top: 22px;
   padding-left: 30px;
 }
 
